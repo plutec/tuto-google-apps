@@ -36,7 +36,7 @@ nuevas funcionalidades.
 Las que lo permiten, como Google Drive, se convierten en plataformas
 donde se pueden desarrollar verdaderas aplicaciones.
 
-> Discutir diferentes SaaS de uso habitual y sus ventajas e
+> Ejercicio: Discutir diferentes SaaS de uso habitual y sus ventajas e
 > inconvenientes frente a aplicaciones de escritorio.
 
 ## Intro a Google Drive
@@ -59,7 +59,7 @@ pueden crear tablas dinámicas. Estas tablas dinámicas son fáciles de
 crear y, en muchos casos, permiten realizar informes de forma
 dinámica.
 
-> Crear un formulario que permita, por ejemplo, introducir respuestas
+> Ejercicio: Crear un formulario que permita, por ejemplo, introducir respuestas
 > a una encuesta. Examinar la hoja de respuestas y crear un informe de
 > tabla dinámica (Datos->Informe de Tabla dinámica)
 
@@ -106,7 +106,7 @@ y las hojas de cálculo la
 estos objetos están instanciados y accesibles a todos los scripts que
 vayamos a usar. Pero antes, tendremos que aprender sobre los
 
-> Buscar los objetos correspondientes a las diferentes aplicaciones de
+> Ejercicio: Buscar los objetos correspondientes a las diferentes aplicaciones de
 > Google Drive. ¿Cómo se llaman? ¿Cuantos tiene cada uno? 
 
 ## Métodos de autenticación
@@ -192,7 +192,7 @@ Ver -> Registros. Saldrá algo así:
 
 ![Registro de resultados](img/registro.png)
 
-> Escribir un script que escriba en el registro una tabla de
+> Ejercicio: Escribir un script que escriba en el registro una tabla de
 > multiplicar de un número determinado.
 
 Desde los scripts tenemos también acceso a la librería estándar de
@@ -361,7 +361,7 @@ marcha. También se pasa una función así a `sort`: es la función que se
 usa para clasificar y que en este caso lo hace según el número de
 colaboradores (longitud del array).
 
-> Realizar un script que recupere el *peso* de cada uno de los
+> Ejercicio: Realizar un script que recupere el *peso* de cada uno de los
 > ficheros almacenados en el Drive y liste sólo los PDFs.
 
 ##Trabajando con varios documentos
@@ -398,7 +398,7 @@ que vamos a añadir como nueva fila de la hoja, que será variable en
 cada caso. Tendremos como resultado una hoja con todos los documentos,
 un montón en mi caso, y los colaboradores que hay en cada uno de ellos.
 
-> *Contar* el peso de los ficheros en un  [documento de texto](https://developers.google.com/apps-script/reference/document/), de esta
+> Ejercicio: *Contar* el peso de los ficheros en un  [documento de texto](https://developers.google.com/apps-script/reference/document/), de esta
 > forma: "El fichero x tiene y megas.".
 
 ## Añadiendo los scripts a un documento
@@ -466,7 +466,7 @@ La otra función, `summarize_projects` es la que hace todo el trabajo: en este c
 
 La principal diferencia con los ejemplos anteriores está en que estamos alterando el interfaz de usuario, añadiendo un nuevo desplegable, y también en la forma de usar el documento actual en el que estamos; habrá una función similar para cada uno de los tipos de documento.
 
-> Cread un script para una hoja de cálculo que resuma el contenido en
+> Ejercicio: Cread un script para una hoja de cálculo que resuma el contenido en
 > un documento externo, por ejemplo diciendo algo así como "La fila *x*
 > tiene como columna *y* el contenido *z*". Cread previamente el documento
 > en el que se vaya a incluir este texto. 
